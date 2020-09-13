@@ -1,0 +1,49 @@
+.js-greeting input{
+    text-decoration: grey;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.widget{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.bgImage{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    animation:fadein .5s linear
+}
+
+.js-greetings{
+    text-align:center;
+}
+
+.js-clock{
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+.js-todo{
+    text-align:center;
+}
+
+.js-weather{
+    position:absolute;
+    right:3%;
+    text-decoration: black;
+}
+.js-location{
+    position:absolute;
+    left:3%;
+    text-decoration: black;
+}
